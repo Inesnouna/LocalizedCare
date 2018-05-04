@@ -56,7 +56,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
-                android:background="#daffffff"
+                app:cardBackgroundColor="#84ffffff"
+
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
@@ -75,8 +76,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Gastro-entérologie"
-                        android:fontFamily="casual"
-                        android:textColor="#fff"
+                        android:textAlignment="center"
+                        android:textColor="#424242"
                         android:textSize="14sp"
                         android:textStyle="bold" />
 
@@ -90,7 +91,7 @@
                 android:layout_height="0dp"
                 android:layout_columnWeight="1"
                 android:layout_rowWeight="1"
-                android:background="#fff"
+                app:cardBackgroundColor="#84ffffff"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
@@ -105,7 +106,7 @@
                     android:orientation="vertical">
 
                     <ImageView
-                        android:layout_width="match_parent"
+                        android:layout_width="wrap_content"
                         android:layout_height="70dip"
                         android:background="@drawable/dents" />
 
@@ -113,8 +114,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Chirurgie Dentaire"
-                        android:fontFamily="casual"
-                        android:textColor="#fff"
+                        android:textAlignment="center"
+                        android:textColor="#424242"
                         android:textSize="15sp"
                         android:textStyle="bold" />
 
@@ -132,7 +133,8 @@
                 android:layout_columnWeight="1"
                 android:layout_marginBottom="16dp"
                 android:layout_marginLeft="16dp"
-                android:background="#50ffffff"
+
+                app:cardBackgroundColor="#84ffffff"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
                 app:cardCornerRadius="8dp"
@@ -153,9 +155,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Cardiologie"
-                        android:fontFamily="casual"
+
                         android:textAlignment="center"
-                        android:textColor="#fff"
+                        android:textColor="#424242"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -172,7 +174,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
-                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="#84ffffff"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="8dp">
 
                 <LinearLayout
@@ -185,15 +188,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="70dip"
                         android:layout_gravity="center_horizontal"
-                        android:background="@drawable/ORL" />
+                        android:background="@drawable/orl" />
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="O-R-L"
-                        android:fontFamily="casual"
+
                         android:textAlignment="center"
-                        android:textColor="#fff"
+                        android:textColor="#424242"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -213,7 +216,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
-                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="#84ffffff"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="8dp">
 
                 <LinearLayout
@@ -232,9 +236,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Pediatrie"
-                       android:fontFamily="casual"
+
                         android:textAlignment="center"
-                        android:textColor="#fff"
+                       android:textColor="#424242"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -251,6 +255,7 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
+                app:cardBackgroundColor="#84ffffff"
                 app:cardCornerRadius="8dp"
                 app:cardElevation="8dp">
 
@@ -271,9 +276,9 @@
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
                         android:text="Rhumatologie"
-                        android:fontFamily="casual"
+
                         android:textAlignment="center"
-                        android:textColor="#fff"
+                        android:textColor="#424242"
                         android:textSize="18sp"
                         android:textStyle="bold" />
 
@@ -289,7 +294,8 @@
                 android:layout_marginLeft="16dp"
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
-                app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="#84ffffff"
+                app:cardCornerRadius="10dp"
                 app:cardElevation="8dp">
 
                 <LinearLayout
@@ -308,8 +314,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Pneumologie"
-                        android:fontFamily="casual"
-                        android:textColor="#fff"
+
+                        android:textColor="#424242"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold" />
@@ -327,6 +333,7 @@
                 android:layout_marginRight="16dp"
                 android:layout_rowWeight="1"
                 app:cardCornerRadius="8dp"
+                app:cardBackgroundColor="#84ffffff"
                 app:cardElevation="8dp">
 
                 <LinearLayout
@@ -345,8 +352,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="70dip"
                         android:text="Neurologie"
-                        android:fontFamily="casual"
-                        android:textColor="#fff"
+
+                        android:textColor="#424242"
                         android:textAlignment="center"
                         android:textSize="18sp"
                         android:textStyle="bold" />
